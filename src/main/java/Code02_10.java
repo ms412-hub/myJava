@@ -1,19 +1,13 @@
+import java.util.Scanner;
 public class Code02_10 {
     public static void main(String[] args) {
-        int number1 = 10, number2 = 20;
-        int resAdd;
-        int resSub;
-        int resMul;
-        double resDiv;
+        Scanner s = new Scanner(System.in);
 
-        resAdd = number1 + number2;
-        resSub = number1 - number2;
-        resMul = number1 * number2;
-        resDiv = (double) number1 / number2;
+        int num;
 
-        System.out.println(number1 + "+" + number2 + "=" + resAdd);
-        System.out.println(number1 + "-" + number2 + "=" + resSub);
-        System.out.println(number1 + "*" + number2 + "=" + resMul);
-        System.out.println(number1 + "/" + number2 + "=" + resDiv);
+        num = s.nextInt();
+        System.out.println("사용자가 입력한 값 ==> " + num);
+
+        s.close();
     }
 }
