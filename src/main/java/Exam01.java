@@ -7,6 +7,6 @@ public class Exam01 {
         int z = s.nextInt();
         int y = s.nextInt();
 
-        System.out.println(z + "/" + y + "=" + (double) z/y);
+        System.out.println(z + " / " + y + " = " + (double) z/y);
     }
 }
