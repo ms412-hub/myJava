@@ -1,4 +1,4 @@
-public class code02_12 {
+public class Code02_12 {
     public static void main(String[] args) {
         int num1;
         double num2;
