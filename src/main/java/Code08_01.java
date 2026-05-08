@@ -3,7 +3,7 @@ class Rabbit10{
     int xpos;
     int ypos;
     static int count;
-    //생성한 토끼의 수
+    //static읋 사용하면 기본 0값 생성한 토끼의 수
     Rabbit10() {
         count++;
     }
